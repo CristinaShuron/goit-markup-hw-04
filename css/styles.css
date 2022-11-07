@@ -93,7 +93,6 @@ p {
 
 /***задає стилі студія,портфоліо,контакти***/
 .header-link {
-  
   height: 16px;
   line-height: 1.1;
   letter-spacing: 0.02em;
@@ -106,7 +105,6 @@ p {
 .header-link:focus {
   color: var(--accent-color);
 }
-
 
 .link {
   text-decoration: none;
@@ -129,14 +127,14 @@ p {
 .enveloper {
   width: 16px;
   height: 12px;
-  fill: #AFB1B8; 
+  fill: #afb1b8;
   margin-right: 10px;
 }
 
 .smartphone {
   width: 10px;
   height: 16px;
-  fill: #AFB1B8;
+  fill: #afb1b8;
   margin-right: 10px;
 }
 
@@ -147,7 +145,6 @@ p {
 .enveloper:hover {
   fill: #2196f3;
 }
-
 
 /********************** задає фон під заголовок і кнопку *************************/
 .order {
@@ -160,10 +157,10 @@ p {
   background-color: #c4c4c4;
 
   background-image: linear-gradient(
-    rgba(47, 48, 58, 0.4),       /* задає лінійний градієнт*/
-    rgba(47, 48, 58, 0.4)
-  ),
-  url(../images/heroimg.jpg); /*вставляє картинку*/
+      rgba(47, 48, 58, 0.4),
+      /* задає лінійний градієнт*/ rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/heroimg.jpg); /*вставляє картинку*/
   background-size: 1600px;
   background-repeat: no-repeat;
   background-position: center;
@@ -209,11 +206,9 @@ p {
 }
 
 /*особливості команди*/
-.descriptions{
+.descriptions {
   padding: 94px 0px 118px 0px;
-
 }
-
 
 .description-list {
   display: flex; /***ставить елемент ul в один рядок***/
@@ -235,7 +230,6 @@ p {
   margin-right: 0px;
 }
 
-
 .description-text {
   font-weight: 400;
   font-size: 14px;
@@ -247,20 +241,18 @@ p {
   display: flex;
   width: 270px;
   height: 120px;
-  background: #F5F4FA;
+  background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
   margin-right: 30px;
   align-items: center;
   justify-content: center;
-  
 }
 .descrip-icon {
   width: 70px;
   height: 70px;
   color: #757575;
 }
-
 
 /****************ABOUT**************/
 .about {
@@ -374,102 +366,87 @@ p {
   justify-content: center;
 }
 
-
 .gallery-team .social-item {
   width: 44px;
   height: 44px;
   margin-right: 10px;
   cursor: pointer;
- 
 }
 .gallery-team .social-item:last-child {
   margin-right: 0px;
 }
 
-
-
 .gallery-team .social-link {
- width: 100%;              /*задає розміри і властивості <a>*/
+  width: 100%; /*задає розміри і властивості <a>*/
   height: 100%;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-   
-} 
+}
 .social-link:hover {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
-.social-link:hover .social-icon{
-  fill: #FFFFFF;
+.social-link:hover .social-icon {
+  fill: #ffffff;
 }
 
 .social-icon {
   width: 22px;
   height: 22px;
-  fill: #AFB1B8;
-   
+  fill: #afb1b8;
 }
 
 /***********regular clients****************/
 
 .regular-clients {
-   display: flex; /***ставить елемент ul в один рядок***/
-   width: 1170px;
-   height: 184px;
-   list-style: none;
-   cursor: pointer;
-   margin: 0px;
-   padding-left: 0px;
-   
-
+  display: flex; /***ставить елемент ul в один рядок***/
+  width: 1170px;
+  height: 184px;
+  list-style: none;
+  cursor: pointer;
+  margin: 0px;
+  padding-left: 0px;
 }
-      
 
 .clients-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    padding-bottom: 50px;
-    padding-top: 94px;
-  
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-bottom: 50px;
+  padding-top: 94px;
 }
 
 .client {
-   width: 170px;
-  height: 92px;  
-  border: 1px solid #AFB1B8;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   margin-right: 30px;
   padding-bottom: 94px;
-    
 }
- .client:last-child {
+.client:last-child {
   margin-right: 0px;
 }
 
-
 .client-logo {
-  fill: #AFB1B8;
+  fill: #afb1b8;
   width: 106px;
   height: 60px;
   margin: 16px 32px;
-  
 }
 .client:hover {
- 
-  border: 1px solid #2196F3;
+  border: 1px solid #2196f3;
 }
 
 .client-logo:hover {
-  fill: #2196F3;
+  fill: #2196f3;
 }
-
 
 /***********footer****************/
 .footer {
@@ -478,7 +455,7 @@ p {
   background: #2f303a;
 }
 .cont {
-  display:flex;
+  display: flex;
   align-items: baseline;
   width: fit-content;
 }
@@ -495,50 +472,46 @@ p {
   line-height: 1.4;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 75px;
   margin-bottom: 20px;
-   
 }
 
 .footer-block {
   display: flex;
   margin-left: -580px;
-
 }
 
 .footer-icons {
-    width: 44px;
-    height: 44px;
-    margin-right: 10px;
-    cursor: pointer;
-   
-  }
-  .footer-icons:last-child {
-    margin-right: 0px;
-  }
- 
-.footer-link {
-  width: 100%;              /*задає розміри і властивості <a>*/
-   height: 100%;
-   background: rgba(255, 255, 255, 0.1);
-   border-radius: 50%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   } 
- .footer-link:hover {
-   background-color: #2196F3;
- }
-  .footer-link:hover .foot-icon{
-   fill: #FFFFFF;
- }
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.footer-icons:last-child {
+  margin-right: 0px;
+}
 
- .foot-icon {
+.footer-link {
+  width: 100%; /*задає розміри і властивості <a>*/
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-link:hover {
+  background-color: #2196f3;
+}
+.footer-link:hover .foot-icon {
+  fill: #ffffff;
+}
+
+.foot-icon {
   width: 22px;
   height: 22px;
-  fill:#FFFFFF;
-   
+  fill: #ffffff;
 }
 
 .maps {
@@ -548,7 +521,7 @@ p {
   letter-spacing: 0.03em;
   color: #ffffff;
   margin-bottom: 8px;
-  
+
   text-decoration: none;
 }
 .contact-link {
@@ -812,11 +785,11 @@ p {
   margin-bottom: 0px; /*кожному елементу починаючи з сьомого 0рх знизу */
 }
 
- 
 .projekt-page:hover,
 .projekt-page:focus {
-  border: 1px solid #EEEEEE;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); 
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .projekt {
